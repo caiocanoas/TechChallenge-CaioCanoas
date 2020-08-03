@@ -14,6 +14,7 @@ Criando um chatbot com a api do Telegram para otimizar o comunicação entre o C
 
 - Crie um agent no Google Cloud Platform;
 - Crie as suas intents do dialogflow;
+- Deixe a intent de fallback sem respostas (para não mandar nada quando alguma das opções for escolhida);
 - Adicione as chaves de identificação no arquivo dialogflowKeys.JSON.
 
 ## Funcionamento do Bot
