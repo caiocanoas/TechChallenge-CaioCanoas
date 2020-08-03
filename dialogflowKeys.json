@@ -1,0 +1,12 @@
+{
+  "type": "Insira",
+  "project_id": "aqui",
+  "private_key_id": "sua",
+  "private_key": "chave",
+  "client_email": "do",
+  "client_id": "dialogflow",
+  "auth_uri": "da",
+  "token_uri": "Google",
+  "auth_provider_x509_cert_url": "Cloud",
+  "client_x509_cert_url": "Platform"
+}

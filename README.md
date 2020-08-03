@@ -10,6 +10,12 @@ Criando um chatbot com a api do Telegram para otimizar o comunicação entre o C
 - Insira um username. ...
 - Feito isso, você receberá um Token.
 
+## Dialogflow
+
+- Crie um agent no Google Cloud Platform;
+- Crie as suas intents do dialogflow;
+- Adicione as chaves de identificação no arquivo dialogflowKeys.JSON.
+
 ## Funcionamento do Bot
 
 - Insira seu token no local indicado no arquivo index.js;

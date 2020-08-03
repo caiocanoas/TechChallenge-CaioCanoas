@@ -118,4 +118,4 @@ dist
 # MacOS files
 .DS_Store
 
-token.txt
+*.txt
