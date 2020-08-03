@@ -1,0 +1,28 @@
+{
+  "name": "techchallenge-caiocanoas",
+  "version": "1.0.0",
+  "description": "Criação de um chatbot para otimizar a relação do Carrefour com seus clientes, utilizando a API do Telegram",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caiocanoas/TechChallenge-CaioCanoas.git"
+  },
+  "keywords": [
+    "nodejs",
+    "javascript",
+    "chatbot",
+    "telegram"
+  ],
+  "author": "Caio Canoas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/caiocanoas/TechChallenge-CaioCanoas/issues"
+  },
+  "homepage": "https://github.com/caiocanoas/TechChallenge-CaioCanoas#readme",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.50.0"
+  }
+}
