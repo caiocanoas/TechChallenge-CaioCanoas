@@ -1,7 +1,7 @@
 const TelegramBot = require('node-telegram-bot-api')
 const dialogflow = require('./dialogflow')
 
-const token = 'Insira qui o token do seu Telegram Bot'
+const token = 'Insira aqui o token do seu Telegram Bot'
 
 const bot = new TelegramBot(token, {polling: true})
 
