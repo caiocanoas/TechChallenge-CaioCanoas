@@ -5,6 +5,7 @@ const token = 'Insira qui o token do seu Telegram Bot'
 
 const bot = new TelegramBot(token, {polling: true})
 
+//Aqui são definidas as opções que o usuário poderá escolher
 const opcoes = {
     "keyboard": [["Buscar um produto", "Descobrir ofertas próximas"],
     ["Acompanhar meu pedido", "Redes Sociais Carrefour"]]
@@ -14,6 +15,7 @@ const sociais = {
     "keyboard": [["Facebook", "Twitter"], ["YouTube", "Instagram"]]
 }
 
+//Resposta à mensagem automática de início de conversas com bot no Telegram
 bot.onText(/\/start/, (msg) => {
     
     bot.sendMessage(msg.chat.id, "Olá " + msg.from.first_name + 
@@ -22,6 +24,7 @@ bot.onText(/\/start/, (msg) => {
 })
 
 bot.on('message', async function (msg) {
+    //Integração do dialogflow com o chatbot
     const chatId = msg.chat.id
     console.log(msg.text)
     
@@ -31,6 +34,7 @@ bot.on('message', async function (msg) {
 
     bot.sendMessage(chatId, responseText)
     
+    //Caminhos definidos anteriormente e as respostas para cada um
     const buscar = "Buscar um produto"
     if(msg.text.indexOf(buscar) === 0) {
         bot.sendMessage(chatId, "Que legal! É só digitar o produto que deseja pesquisar e eu vou te mandar o link")
